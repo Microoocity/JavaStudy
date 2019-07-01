@@ -14,5 +14,5 @@ package com.icity.javastudy.Demo26FunctionalInterface;
         consumer1.anThen(consumer2).accept(s); // 谁写前面先消费谁
  */
 public class Demo2611andThen {
-    //定义一个方法，方法的参数传递一个字符串和2个Consumer接口，
+    //todo:update from U盘
 }
