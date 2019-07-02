@@ -45,6 +45,17 @@ public class Demo2617Tset {
         String[] array = {"icity1,男", "icity2,女", "icity03,男", "icity4,女"};
         //调用filter方法，传递字符串数组和2个lambda表达式
         ArrayList<String> arrayList = filter(array, s -> s.split(",")[1].equals("女"), s -> s.split(",")[0].length() == 6);
+        /*ArrayList<String> arrayList1 = filter(array, new Predicate<String>() {
+            @Override
+            public boolean test(String s) {
+                return s.split(",")[1].equals("女");
+            }
+        }, new Predicate<String>() {
+            @Override
+            public boolean test(String s) {
+                return s.split(",")[0].length() == 6;
+            }
+        });*/
         //遍历集合
         for (String s : arrayList) {
             System.out.println(s);
