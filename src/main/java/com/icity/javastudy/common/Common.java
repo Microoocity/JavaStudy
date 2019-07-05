@@ -13,4 +13,5 @@ public class Common {
     public static String UTF格式的文本 = "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "icity" + File.separator + "javastudy" + File.separator + "Demo15IO" + File.separator + "UTF格式的文本.txt";
     public static String Person = "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "icity" + File.separator + "javastudy" + File.separator + "Demo15IO" + File.separator + "Person.txt";
     public static String personArrayList = "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "icity" + File.separator + "javastudy" + File.separator + "Demo15IO" + File.separator + "personArrayList.txt";
+    public static String properties = "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "icity" + File.separator + "javastudy" + File.separator + "Demo15IO" + File.separator + "properties.properties";
 }

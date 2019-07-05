@@ -1,5 +1,8 @@
 package com.icity.javastudy.Demo30Reflect;
 
+import com.icity.javastudy.common.Common;
+
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
@@ -23,9 +26,10 @@ public class Demo3005Test {
         //1.加载配置文件,转换为一个集合
         //获取class目录下的配置文件
         Properties properties = new Properties();
-        ClassLoader classLoader = Demo3005Test.class.getClassLoader();
-        InputStream inputStream = classLoader.getResourceAsStream("src/properties.properties");
-        properties.load(inputStream);
+//        ClassLoader classLoader = Demo3005Test.class.getClassLoader();
+//        InputStream inputStream = classLoader.getResourceAsStream("src/properties.properties");
+//        properties.load(inputStream);
+        properties.load(new FileReader(Common.properties));
 
         //2.获取配置文件中定义的数据
         String className = properties.getProperty("className");
